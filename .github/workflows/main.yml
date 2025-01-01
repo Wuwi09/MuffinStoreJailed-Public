@@ -19,8 +19,3 @@ jobs:
         name: MuffinStoreJailed
         path: MuffinStoreJailed.ipa
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch: # Add this line for manual triggers
